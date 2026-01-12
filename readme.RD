@@ -1,6 +1,26 @@
+# CUDA code for CasPhy
+Li Lin<br>
+
+## Requirements:
+* CMake v3.13+
+* C++ 11 complier
+* CUDA Toolkit
+
+## installation:<br>
+```
+git clone https://github.com/yourusername/CasPhy-cuda.git
+cd CasPhy-cuda
 mkdir build
 cd build
-
 cmake ..
-cmake -DCUDA_ARCH=75 ..
 make
+```
+or specify the compute capacity for your NVIDIA GPU:<br>
+```
+git clone https://github.com/yourusername/CasPhy-cuda.git
+cd CasPhy-cuda
+mkdir build
+cd build
+cmake -DCUDA_ARCH=89 .. ## set compute capacity to 89 for RTX 40 series
+make
+```
