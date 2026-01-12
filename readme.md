@@ -8,7 +8,7 @@ Li Lin<br>
 
 ## installation:<br>
 ```
-git clone https://github.com/yourusername/CasPhy-cuda.git
+git clone https://github.com/LiLin-biosoft/CasPhy-cuda.git
 cd CasPhy-cuda
 mkdir build
 cd build
@@ -17,7 +17,7 @@ make
 ```
 or specify the compute capacity for your NVIDIA GPU:<br>
 ```
-git clone https://github.com/yourusername/CasPhy-cuda.git
+git clone https://github.com/LiLin-biosoft/CasPhy-cuda.git
 cd CasPhy-cuda
 mkdir build
 cd build
