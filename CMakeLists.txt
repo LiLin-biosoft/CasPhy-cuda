@@ -20,5 +20,5 @@ add_executable(nodeKeepIndel nodeKeepIndel.cu)
 add_executable(radiusNeighbor radiusNeighbor.cu)
 add_executable(radiusNeighborDNA radiusNeighborDNA.cu)
 add_executable(tipMerge tipMerge.cu)
-add_executable(vootRoot2 vootRoot2.cu)
+add_executable(voteRoot2 voteRoot2.cu)
 
