@@ -291,7 +291,7 @@ int main(int argc, char *argv[]) {
 	
 	char output_file[256];
 	strcpy(output_file,argv[2]);
-	strcat(output_file,".rootVote2");
+	strcat(output_file,".rootVote");
 	FILE* output=fopen(output_file,"wb");
 	
 	dim[0]=2,dim[1]=nSamples;
